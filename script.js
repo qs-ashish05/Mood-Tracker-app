@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const { date, time, fullDate } = getCurrentDateTime();
 
-        console.log(storageValues)
+        // console.log(storageValues)
         storageValues[date] = { value: text, time, fullDate };
         saveToLocalStorage();
 
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
         for (let j = 1; j <= totalDays; j++) {
             const dayElm = document.createElement("div");
             dayElm.classList.add("day");
-            console.log(dayElm);
+            // console.log(dayElm);
             dayElm.id = `day-${j}`;
             dayElm.innerText = j;
 
@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
             else if (!userInput) return;
             const { date, time, fullDate } = getCurrentDateTime();
 
-            console.log(storageValues)
+            // console.log(storageValues)
             storageValues[dayNumber] = { value: userInput, time, fullDate };
             saveToLocalStorage();
 
