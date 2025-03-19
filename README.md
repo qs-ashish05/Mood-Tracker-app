@@ -2,6 +2,8 @@
 
 This is a simple Mood Tracker app that allows users to track their mood on specific dates using a calendar view.
 
+Click to view live preview - https://qs-ashish05.github.io/Mood-Tracker-app/
+
 ## Features
 
 - Users can select a specific date on the calendar.
